@@ -40,3 +40,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay
